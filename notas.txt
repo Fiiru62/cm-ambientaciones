@@ -1,0 +1,1 @@
+Copiar el main.js en la carpeta dist siempre que se haga un npm run build

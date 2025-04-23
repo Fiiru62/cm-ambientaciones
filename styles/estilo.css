@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/*! FUENTES  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Felgine';
+    src: url('/fonts/Felgine-Italic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Felgine2';
+    src: url('/fonts/Felgine-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* <weight>: Use a value from 100 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+/*! FUENTES  */
+
+/*? PALETA DE COLORES */
+/* 
+    #F7F6F1
+    #CFC7B2
+    #929E88
+    #39504A
+    #243B35
+ */
+/*? PALETA DE COLORES */
+        
+body{
+    background-color: #F7F6F1;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+header p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+footer{
+    background-color: #243B35;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
